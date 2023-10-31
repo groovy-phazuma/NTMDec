@@ -12,6 +12,8 @@ reference: https://github.com/m3yrin/NTM/tree/master
 #%%
 # cited : https://github.com/yuewang-cuhk/TAKG/blob/master/pykp/model.py
 
+import numpy as np
+
 import torch
 from torch import nn, optim
 from torch.nn import functional as F
